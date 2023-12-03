@@ -1,0 +1,81 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="algeo_start" id="algeo_start" x="90" y="50">
+    <field name="state">START</field>
+    <next>
+      <block type="algeo_create_point" id="0.8591523878475199">
+        <value name="x">
+          <block type="basic_input_value" id="0.5627449180093881">
+            <field name="value">1</field>
+          </block>
+        </value>
+        <value name="y">
+          <block type="basic_input_value" id="0.5712725653049591">
+            <field name="value">2</field>
+          </block>
+        </value>
+        <value name="name">
+          <block type="text" id="0.17210325224518452">
+            <field name="TEXT">D1</field>
+          </block>
+        </value>
+        <next>
+          <block type="algeo_create_point" id="jXpLUGzc,I$XU]xE.4Rg">
+            <value name="x">
+              <block type="basic_input_value" id=".hq5vz~bzUPaC4hi6$?#">
+                <field name="value">3</field>
+              </block>
+            </value>
+            <value name="y">
+              <block type="basic_input_value" id="@76/P;k4I=OIxGuU$e0B">
+                <field name="value">4</field>
+              </block>
+            </value>
+            <value name="name">
+              <block type="text" id="kp/$)XY9mB+)7h(:cHhJ">
+                <field name="TEXT">D2</field>
+              </block>
+            </value>
+            <next>
+              <block type="algeo_create_point" id="MLEi[r{{H}y!Yree$Qhw">
+                <value name="x">
+                  <block type="basic_input_value" id="W[$*6g-6{2RQts.0$}RI">
+                    <field name="value">-1</field>
+                  </block>
+                </value>
+                <value name="y">
+                  <block type="basic_input_value" id="Cgf^npU8z#P@uKcIj6fL">
+                    <field name="value">4</field>
+                  </block>
+                </value>
+                <value name="name">
+                  <block type="text" id="-6~5kg|y$yx_2M79Xj{n">
+                    <field name="TEXT">D3</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="algeo_create_point" id="]B{w!im!0(qrvq]9pxaH">
+                    <value name="x">
+                      <block type="basic_input_value" id="atcSG*J.@,i1GiALwt/I">
+                        <field name="value">1</field>
+                      </block>
+                    </value>
+                    <value name="y">
+                      <block type="basic_input_value" id="G9dn~Sq*p)j`1:_z$FT7">
+                        <field name="value">2</field>
+                      </block>
+                    </value>
+                    <value name="name">
+                      <block type="text" id="6C={okZ$+,{4ID.SUGvb">
+                        <field name="TEXT">D4</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
