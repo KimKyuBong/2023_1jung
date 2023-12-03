@@ -105,6 +105,30 @@ class BlocklyXmlBuilder:
         else:
             self.current_block = self.root
 
+    def create_function_graph(self, latex):
+        self.add_block("create_function_fx")
+        self.add_value("xValue")
+        self.add_basic_input_block(f'"{latex}"')
+        self.end_block()
+        self.add_next()
+
+    def hide_point(self):
+        self.add_block("turtle_all_dot_name_show_hide")
+        self.add_field("fielditem_object", "점과 점의 이름")
+        self.add_field("fielditem_object", "감추기")
+        self.end_block()
+        self.add_next()
+
+    def execute_set(self, name, latex):
+        self.add_block("algeo_execute_set_name")
+        self.add_value("name")
+        self.add_basic_input_block(f'"{name}"')
+        self.end_block()
+        self.add_value("code")
+        self.add_basic_input_block(f'"{latex}"')
+        self.end_block()
+        self.add_next()
+
     def to_xml_string(self):
         return ET.tostring(self.root, encoding="utf-8", method="xml")
 
