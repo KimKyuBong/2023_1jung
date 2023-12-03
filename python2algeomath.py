@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import random as rd
 
 
-class BlocklyXmlBuilder:
+class AlgeoMathBlockBuilder:
     def __init__(self):
         self.root = ET.Element("xml", xmlns="https://developers.google.com/blockly/xml")
         self.current_block = self.root
