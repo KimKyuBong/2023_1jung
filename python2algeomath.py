@@ -50,7 +50,6 @@ class AlgeoMathBlockBuilder:
         self.add_block("algeo_start", x="90", y="50")
         self.add_field("state", "START")
         self.add_next()
-        print("test")
 
     def add_dot_block(self, x, y, name):
         self.add_block("algeo_create_point")
